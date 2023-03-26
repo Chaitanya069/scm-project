@@ -38,7 +38,7 @@ def checking_pin():
 
 def transferring():
     if a not in acc_nums.keys() or b not in acc_nums.keys():
-        print("Not a valid Account Number ")
+
         print()
 
     else:
@@ -50,7 +50,7 @@ def transferring():
                 if amount < acc_nums[a]:
                     acc_nums[a] = acc_nums[a] - amount
                     acc_nums[b] = acc_nums[b] + amount
-                    print(f"Successfully transferred {amount} from {a} to {b}")
+                    print(f"Successfully transferred {Amount} from {a} to {b}")
                     print(f"Remaining balance : {acc_nums[a]}")
                     print()
                     flag = False
@@ -80,7 +80,7 @@ def withdraw(amount):
 
 
 def check_bal():
-    print("Current Balance :", acc_nums[key])
+    print("Current balance :", acc_nums[key])
     print()
 
 #          ..............main................
