@@ -15,7 +15,7 @@ def printing_stuff():
 def new_acc_details():
     name = input("Enter account holder name : ")
     # age = int(input("Enter your age : "))
-    aadhar_no = input("Enter your aadhar number : ")
+    aadhar_no = input("Enter your aadhar no. : ")
     acc_num = aadhar_no
     acc_nums[acc_num] = 0
     set_pin = input("Enter New Pin: ")
