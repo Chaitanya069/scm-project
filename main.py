@@ -38,7 +38,7 @@ def checking_pin():
 
 def transferring():
     if a not in acc_nums.keys() or b not in acc_nums.keys():
-        print("Not a valid Acc. Number ")
+        print("Not a valid Account Number ")
         print()
 
     else:
