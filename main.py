@@ -20,7 +20,7 @@ def new_acc_details():
     acc_nums[acc_num] = 0
     set_pin = input("Enter New Pin: ")
     acc_pins[acc_num] = set_pin
-    print("Account Number :", acc_num)
+    print("Account No. :", acc_num)
     print()
 
 
@@ -38,7 +38,7 @@ def checking_pin():
 
 def transferring():
     if a not in acc_nums.keys() or b not in acc_nums.keys():
-        print("Not a valid Account No. ")
+        print("Not a valid Acc. Number ")
         print()
 
     else:
